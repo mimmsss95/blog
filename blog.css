@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,900 ');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 54px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+header {
+    padding-top: 20px;
+    background: url('images/greywood.jpg') no-repeat;
+    background-size: cover;
+    height: 735px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 80px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #FA8072;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    color: #555555;
+    border-bottom: 2px solid #9D9D9D;
+}
+
+
+header .left {
+    width: 32%;
+    padding-left: 8%;
+    padding-top: 160px;
+    display: inline-block;
+}
+
+header .right {
+    background-image: url("img/beats-landing-main.jpg");
+    display: inline-block;
+    width: calc(60% - 5px);
+    vertical-align: top;
+    height: 800px;
+    background-size: contain;
+    margin-bottom: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header .left p {
+    line-height: 2em;
+    margin-bottom: 40px;
+}
+
+button {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 15px 45px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+button:hover {
+    background-color: #DC0202;
+    cursor: pointer;
+}
+
+#trend {
+    background-color: #FBFCFF;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+#trend .right {
+    width: 46%;
+    padding-right: 4%;
+    display: inline-block;
+}
+
+#trend .left {
+    width: calc(50% - 105px);
+    display: inline-block;
+    height: 650px;
+    background-image: url("images/lashes.jpg");
+    background-repeat: no-repeat;
+    vertical-align: top;
+    margin-right: 100px;
+}
+
+#trend h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+#trend h4 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: 400;
+    padding-left: 100px;
+    margin-bottom: 100px;
+}
+
+#trend h4 span {
+    font-weight: 900;
+}
+
+#trend p {
+    width: 93%;
+    font-size: 1.3em;
+    line-height: 2em;
+}
+
+#trend h2 {
+    font-size: 3em;
+    display: inline-block;
+}
+
+#trend button {
+    vertical-align: middle;
+    position: relative;
+    top: 12px;
+    margin-left: 50px;
+}
+
+.news {
+    margin: 0;
+    padding-top: 35px;
+    padding-bottom: 46px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0, 0.6)),
+        url('images/background-choose-us.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.news h2 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.article-container {
+    display: flex;
+    justify-content: center;
+}
+
+.article-container a {
+    margin-right: 30px;
+    padding: 20px;
+    width: 300px;
+    border: 2px solid #FA8072;
+    text-align: center;
+    text-decoration: none;
+}
+
+.article-container a:hover,
+.article-container a:hover p,
+.article-container a:hover h4 {
+    background: #D3D3D3;
+    color: #090821;
+}
+
+.article-container h4 {
+    color: #fff;
+    margin: 0 0 17px 17px;
+    padding-top: 21px;
+    letter-spacing: 0;
+    font-size: 20px;
+}
+
+.article-container p {
+    margin: 0 0 17px 17px;
+    font-size: 13px;
+    line-height: 18px;
+    color: white;
+}
+
+#red .left {
+    width: 50%;
+    display: inline-block;
+    height: 360px;
+    background-image: url("images/trend.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+}
+
+#red button {
+    vertical-align: middle;
+    position: relative;
+    top: 50px;
+}
+
+#red .right {
+    background-color: #DADADA;
+    width: 50%;
+    display: inline-block;
+    padding: 40px 0;
+    height: 360px;
+}
+
+.beats {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    background-image: url("img/beats-red.png");
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.life {
+    width: 50%;
+    padding-left: 9%;
+    display: inline-block;
+}
+
+.life h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.life h3 {
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: -5px;
+    margin: 0;
+}
+
+.life h3 span {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: red;
+}
+
+#contact {
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 70px 0;
+}
+
+#contact::after {
+    content: '';
+    position: absolute;
+    left: -12.5%;
+    right: -12.5%;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0, 0.6)),
+        url('images/background-choose-us.jpg') no-repeat center;
+    background-size: cover;
+    z-index: -1;
+}
+
+#contact form {
+    border: 1px solid #cccccc;
+    width: 80%;
+    margin: 0 auto;
+}
+
+form h2 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin: 60px 0 40px;
+}
+
+form p {
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 100;
+}
+
+#contact div {
+    margin: 50px 0;
+}
+
+form input {
+    border: none;
+    background: none;
+    border-bottom: 3px solid red;
+}
+
+::-webkit-input-placeholder {
+    color: #eeeeee;
+    font-size: 1.2em;
+}
+
+form button {
+    vertical-align: middle;
+    position: relative;
+    margin-left: 20px;
+   
+}
+
+
+footer {
+    position: absolute;
+    left: 0;
+    background-color: #292A2F;
+    width: 100%;
+    color: white;
+    height: 60px;
+}
+
+footer span {
+    float: left;
+    padding-left: 15px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    line-height: 60px;
+}
+
+footer p {
+    color: #ccccff;
+    text-transform: uppercase;
+    float: right;
+    padding-right: 20px;
+    width: 220px;
+}
